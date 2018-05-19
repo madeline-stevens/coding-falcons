@@ -1,13 +1,20 @@
 {
-  "name": "client",
+  "name": "coding-falcons",
   "version": "1.0.0",
-  "description": "client side of coding falcons site",
-  "main": "index.html",
+  "description": "Coding Falcons is a school and summer coding program for students 5-8th grade. Ivette Cortez and Madeline Stevens run the program and hope to expand throughout White Center, Georgetown and the rest of South Seattle.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "server.js"
+    "start": "node server.js"
   },
-  "author": "Madeline Stevenssss",
-  "license": "ISC"
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhubs/coding-falcons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhubs/coding-falcons/issues"
+  },
+  "homepage": "https://github.com/madhubs/coding-falcons#readme"
 }
