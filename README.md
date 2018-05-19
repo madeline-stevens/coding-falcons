@@ -18,6 +18,11 @@ Setting up heroku environment.
 npm init- to create package.json
 npm install- to create nodemodules
 
+needed to update hoek dependency in node:
+```
+npm update && npm install
+```
+
 #### CDNs (aka- libraries)
 
 page.js
