@@ -6,6 +6,12 @@ Adding bootstrap components.
 
 Setting up heroku environment. 
 
+Attempting to use the php fix again: 
+
+```php
+<?php header( 'Location: /index.html' ) ; ?>
+```
+
 ### Table of Contents
 + [Tools use to build this info site](#tools)
 + [About us](#about)
