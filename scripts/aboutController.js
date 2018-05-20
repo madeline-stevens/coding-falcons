@@ -8,10 +8,10 @@ var app = app || {};
 
   aboutController.index = () => {
   // aboutController.initAboutController = function () {
-    $('#mission-section').hide();
-    $('#locations-section').hide();
-    $('#resources-section').hide();
     $('#about').show();
+    $('#summer-coding').hide();
+    $('#scholarship-opportunities').hide();
+    $('#school-program').hide();
   };
   module.aboutController = aboutController;
 })(app);
