@@ -6,19 +6,19 @@ Adding bootstrap components.
 
 Setting up heroku environment. 
 
-Attempting to use the php fix again: 
+Attempting to use the php fix again (resource- https://www.youtube.com/watch?v=IVvU9JF6o8s): 
 
 ```php
 <?php header( 'Location: /index.html' ) ; ?>
 ```
 
 ### Table of Contents
-+ [Tools use to build this info site](#tools)
++ [Tools use to build this site](#tools)
 + [About us](#about)
 + [How to get involved](#support)
 + [Resources](#resources)
 
-### Tools
+### Tools:
 
 #### packages
 npm init- to create package.json
