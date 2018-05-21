@@ -12,6 +12,16 @@ Attempting to use the php fix again (resource- https://www.youtube.com/watch?v=I
 <?php header( 'Location: /index.html' ) ; ?>
 ```
 
+Ran into the issue of jquery not being recognized despite the CDN's script at the bottom of index.html. I had to add this into .eslintrc:
+```
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "es6": true
+  },
+```
+
 ### Table of Contents
 + [Tools use to build this site](#tools)
 + [About us](#about)

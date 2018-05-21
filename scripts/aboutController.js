@@ -9,8 +9,8 @@ var app = app || {};
   aboutController.index = () => {
   // aboutController.initAboutController = function () {
     $('#about').show();
-    $('#summer-coding').hide();
-    $('#scholarship-opportunities').hide();
+    $('#home').hide();
+    $('#scholarships').hide();
     $('#school-program').hide();
   };
   module.aboutController = aboutController;

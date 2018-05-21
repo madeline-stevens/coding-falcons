@@ -4,14 +4,14 @@
 var app = app || {};
 
 (function(module) {
-  const mainController = {};
+  const indexController = {};
 
-  mainController.index = () => {
+  indexController.index = () => {
   // aboutController.initAboutController = function () {
     $('#about').hide();
-    $('#summer-coding').show();
-    $('#scholarship-opportunities').hide();
+    $('#home').show();
+    $('#scholarships').hide();
     $('#school-program').hide();
   };
-  module.mainController = mainController;
+  module.indexController = indexController;
 })(app);
