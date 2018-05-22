@@ -1,17 +1,15 @@
-'use strict';
+// 'use strict';
 
+// var app = app || {};
 
-var app = app || {};
+// (function(module) {
+//   const indexController = {};
 
-(function(module) {
-  const indexController = {};
-
-  indexController.index = () => {
-  // aboutController.initAboutController = function () {
-    $('#about').hide();
-    $('#home').show();
-    $('#scholarships').hide();
-    $('#school-program').hide();
-  };
-  module.indexController = indexController;
-})(app);
+//   indexController.index = () => {
+//     $('#about').show();
+//     $('#home').hide();
+//     $('#scholarships').hide();
+//     $('#school-program').hide();
+//   };
+//   module.indexController = indexController;
+// })(app);

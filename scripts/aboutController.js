@@ -7,7 +7,6 @@ var app = app || {};
   const aboutController = {};
 
   aboutController.index = () => {
-  // aboutController.initAboutController = function () {
     $('#about').show();
     $('#home').hide();
     $('#scholarships').hide();
