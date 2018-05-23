@@ -8,7 +8,7 @@ var app = app || {};
   scholarshipController.index = () => {
     $('#about').hide();
     $('#home').hide();
-    $('#school-program').hide();
+    $('#programs').hide();
     $('#scholarships').show();
   };
   module.scholarshipController = scholarshipController;

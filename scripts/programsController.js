@@ -8,7 +8,7 @@ var app = app || {};
   schoolController.index = () => {
     $('#about').hide();
     $('#home').hide();
-    $('#school-program').show();
+    $('#programs').show();
     $('#scholarships').hide();
   };
   module.schoolController = schoolController;

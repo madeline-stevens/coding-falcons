@@ -1,4 +1,3 @@
-
 'use strict';
 
 var app = app || {};
@@ -10,7 +9,7 @@ var app = app || {};
     $('#about').show();
     $('#home').hide();
     $('#scholarships').hide();
-    $('#school-program').hide();
+    $('#programs').hide();
   };
   module.aboutController = aboutController;
 })(app);

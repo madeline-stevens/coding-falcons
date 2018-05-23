@@ -9,7 +9,7 @@ var app = app || {};
     $('#about').hide();
     $('#home').show();
     $('#scholarships').hide();
-    $('#school-program').hide();
+    $('#program').hide();
   };
   module.indexController = indexController;
 })(app);
