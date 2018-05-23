@@ -1,5 +1,9 @@
 'use strict';
 
+// $(document).ready(function() {
+//   $('#about').hide();
+// });
+
 var app = app || {};
 
 (function(module) {
