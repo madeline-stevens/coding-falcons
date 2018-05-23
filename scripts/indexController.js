@@ -6,8 +6,8 @@
 //   const indexController = {};
 
 //   indexController.index = () => {
-//     $('#about').show();
-//     $('#home').hide();
+//     $('#about').hide();
+//     $('#home').show();
 //     $('#scholarships').hide();
 //     $('#school-program').hide();
 //   };
