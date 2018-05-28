@@ -10,6 +10,11 @@ body {
   /* max-height: 225px; */
   }
 
+img {
+  width: 50%;
+  height: 50%
+  }
+
 /* #nttLogo{
   height: 100px;
   width: 100px;
