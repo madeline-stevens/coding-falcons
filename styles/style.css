@@ -1,8 +1,8 @@
 
-body {
-  /* font-size: 62.5%;
-  font-family: arial, sans-serif; */
-}
+/* body {
+  font-size: 62.5%;
+  font-family: arial, sans-serif;
+} */
 
 #theCarousel img {
   width: 100%;
@@ -10,10 +10,11 @@ body {
   /* max-height: 225px; */
   }
 
+/* 
 img {
   width: 50%;
   height: 50%
-  }
+  } */
 
 /* #nttLogo{
   height: 100px;
