@@ -57,3 +57,8 @@ At the bottom within my CDN scripts section:
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 ```
 
+#### Resources 
+
+Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg
+Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100 
+Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6
