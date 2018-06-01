@@ -33,9 +33,9 @@ npm update && npm install
 - jquery
 - bootstrap
 
-#### Bootstrap and Heroku setup:
+### Bootstrap and Heroku setup:
 
-#### Bootstap:
+#### Bootstrap:
 
 Adding bootstrap components (resource- https://www.youtube.com/watch?v=gqOEoUR5RHg)
 
@@ -70,7 +70,7 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
   },
 ```
 
-#### Resources 
+### Resources 
 
 Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg  
 Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100  
