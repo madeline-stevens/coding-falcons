@@ -32,6 +32,7 @@ npm update && npm install
 - page.js
 - jquery
 - bootstrap
+- Font Awesome ( twitter- <i class="fab fa-twitter-square"></i>)
 
 ### Bootstrap and Heroku setup:
 
