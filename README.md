@@ -6,8 +6,8 @@ Coding Falcons is a school and summer coding program for students 5-8th grade. I
 http://codingfalcons.herokuapp.com
 
 ### Table of Contents
-+ [How to get up and running](#How to get up and running)
-+ [Boostrap and Heroku setup](#Boostrap and Heroku setup)
++ [How to get up and running](#live-server)
++ [Boostrap and Heroku setup](#setup)
 + [Resources](#resources)
 
 #### How to get up and running:
