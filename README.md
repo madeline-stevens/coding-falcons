@@ -7,7 +7,7 @@ http://codingfalcons.herokuapp.com
 
 ### Table of Contents
 + [How to get up and running](#How to get up and running)
-+ [Bootstrap and Heroku setup](#bootstrap and Heroku setup)
++ [Bootstrap and Heroku setup](#bootstrap)
 + [Resources](#resources)
 
 #### How to get up and running:
