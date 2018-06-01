@@ -6,13 +6,13 @@ Coding Falcons is a school and summer coding program for students 5-8th grade. I
 http://codingfalcons.herokuapp.com
 
 ### Table of Contents
-+ [How to get up and running](#How to get up and running)
++ [Initial Setup](#preview)
 + [Bootstrap and Heroku setup](#bootstrap)
 + [Resources](#resources)
 
-#### How to get up and running:
+### Initial Setup:
 
-#### How to preview in chrome
+#### Preview
 Within terminal, in the root of this project folder.
 ``` 
 live-server
