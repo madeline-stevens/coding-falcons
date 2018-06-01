@@ -71,6 +71,10 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
   },
 ```
 
+#### Fixed a merge conflict: 
+
+![terminal](/photos/terminal.png)
+
 ### Resources 
 
 Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg  
