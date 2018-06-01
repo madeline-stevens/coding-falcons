@@ -6,11 +6,11 @@ Coding Falcons is a school and summer coding program for students 5-8th grade. I
 http://codingfalcons.herokuapp.com
 
 ### Table of Contents
-+ [How to get up and running](#live-server)
-+ [Boostrap and Heroku setup](#setup)
++ [How to get up and running](#How to get up and running)
++ [Bootstrap and Heroku setup](#bootstrap and Heroku setup)
 + [Resources](#resources)
 
-#### How to get up and running(#live-server):
+#### How to get up and running:
 
 #### How to preview in chrome
 Within terminal, in the root of this project folder.
@@ -33,7 +33,7 @@ npm update && npm install
 - jquery
 - bootstrap
 
-#### Boostrap and Heroku setup:
+#### Bootstrap and Heroku setup:
 
 #### Bootstap:
 
@@ -72,6 +72,6 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 
 #### Resources 
 
-Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg
-Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100 
-Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6
+Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg  
+Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100  
+Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6  
