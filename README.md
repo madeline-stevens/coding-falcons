@@ -27,9 +27,9 @@ npm update && npm install
 
 #### CDNs (aka- libraries)
 
-page.js
-jquery
-bootstrap
+- page.js
+- jquery
+- bootstrap
 
 #### Boostrap and Heroku setup:
 
