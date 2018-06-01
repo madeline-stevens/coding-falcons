@@ -10,7 +10,7 @@ http://codingfalcons.herokuapp.com
 + [Boostrap and Heroku setup](#setup)
 + [Resources](#resources)
 
-#### How to get up and running:
+#### How to get up and running(#live-server):
 
 #### How to preview in chrome
 Within terminal, in the root of this project folder.
