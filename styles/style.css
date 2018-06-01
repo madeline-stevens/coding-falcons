@@ -11,15 +11,16 @@
   }
 
 .jumbotron {
-  padding: 35px;
+  padding: 20px;
+  line-height: 25px;
 }
 
 .jumbotron-custom {
-  font-size: 15px;
+  font-size: 5px;
 }
 
 hr {
-  border: 0;
+  /* border: 0; */
   clear:both;
   display:block;
   width: 96%;               
