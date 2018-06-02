@@ -4,6 +4,8 @@ $(document).ready(function() {
   $('#about').hide();
   $('#scholarships').hide();
   $('#programs').hide();
+  $('#contact').hide();
+
 
 });
 

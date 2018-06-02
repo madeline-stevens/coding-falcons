@@ -10,6 +10,9 @@ var app = app || {};
     $('#home').show();
     $('#scholarships').hide();
     $('#program').hide();
+    $('#contact').hide();
+
+    
   };
   module.indexController = indexController;
 })(app);

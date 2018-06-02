@@ -75,11 +75,10 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 
 ![terminal](/photos/terminal.png)
 
-#### possible contact us page resourse: 
-https://bootsnipp.com/snippets/featured/contact-us
 
 ### Resources 
 
 Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg  
 Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100  
 Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6  
+Bootstrap contact us- https://bootsnipp.com/snippets/featured/contact-us 

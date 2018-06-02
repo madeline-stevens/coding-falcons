@@ -14,6 +14,8 @@ var app = app || {};
     $('#home').hide();
     $('#scholarships').hide();
     $('#programs').hide();
+    $('#contact').hide();
+
   };
   module.aboutController = aboutController;
 })(app);

@@ -10,6 +10,8 @@ var app = app || {};
     $('#home').hide();
     $('#programs').hide();
     $('#scholarships').show();
+    $('#contact').hide();
+
   };
   module.scholarshipController = scholarshipController;
 })(app);
