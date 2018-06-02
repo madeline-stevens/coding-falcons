@@ -17,5 +17,4 @@ page('/programs', app.schoolController.index);
 page('/contact', app.contactController.index);
 
 
-
 page();
