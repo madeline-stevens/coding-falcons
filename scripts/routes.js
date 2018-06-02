@@ -12,6 +12,8 @@ var app = app || {};
 page('/about', app.aboutController.index);
 page('/scholarships', app.scholarshipController.index);
 page('/programs', app.schoolController.index);
+page('/contact', app.contactController.index);
+
 
 
 page();

@@ -8,6 +8,8 @@
 
 <!-- style and jquery scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 
@@ -49,7 +51,9 @@ blog stuff -->
                 <li data-content="scholarships" class="nav-li"><a href="/scholarships">Scholarship Opportunities</a></li>
                 <li data-content="programs" class="nav-li"><a href="/programs">School Program</a></li>
                 <!-- <li class="nav-li"><a href="/blog">Blog</a></li> -->
+                <li data-content="contact" class="nav-li"><a href="/contact">Contact Us</a></li>
                 <li data-content="about" class="nav-li"><a href="/about">About the team</a></li>
+
             </ul>
         </nav>
 <!-- end of nav bar -->
@@ -245,6 +249,44 @@ blog stuff -->
     </div>
 <!-- end of school programs -->
 
+<!--start of contact us-->
+
+<section id="contact">
+  <div class="container">
+    <div class="well well-sm">
+      <h3><strong>Contact Us</strong></h3>
+    </div>
+	
+	<div class="row">
+	  <div class="col-md-7">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-5">
+          <h4><strong>Get in Touch</strong></h4>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" name="" value="" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button class="btn btn-default" type="submit" name="button">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of contact us -->
+
 <!-- start of about -->   
         <div class="container"> 
             <section id="about">
@@ -354,6 +396,8 @@ blog stuff -->
   <script src="scripts/scholarshipController.js" type="text/javascript"></script>
   <script src="scripts/indexController.js" type="text/javascript"></script>
   <script src="scripts/programsController.js" type="text/javascript"></script>
+  <script src="scripts/contactController.js" type="text/javascript"></script>
+
   <script src="scripts/routes.js"></script>
 
 
