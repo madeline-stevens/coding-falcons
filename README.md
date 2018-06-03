@@ -78,7 +78,7 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 
 #### MIME chrome error message:
 
-I was missing a comma in the server.js file, had multiple scripts for bootstrap and jquery. 
+There was missing a semicolon in the server.js file, had multiple scripts for bootstrap and jquery. 
 
 ### Resources 
 
