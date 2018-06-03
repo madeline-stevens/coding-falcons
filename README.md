@@ -73,7 +73,7 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 
 #### Fixed a merge conflict: 
 
-![terminal](/photos/terminal.png)
+![terminal](public/photos/terminal.png)
 
 
 ### Resources 
