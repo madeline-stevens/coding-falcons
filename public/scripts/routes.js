@@ -16,5 +16,4 @@ page('/scholarships', app.scholarshipController.index);
 page('/programs', app.programsController.index);
 page('/contact', app.contactController.index);
 
-
 page();
