@@ -79,6 +79,7 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 #### MIME chrome error message:
 
 There was missing a semicolon in the server.js file, had multiple scripts for bootstrap and jquery. 
+![terminal](public/photos/screenshot2.png) 
 
 ### Resources 
 
