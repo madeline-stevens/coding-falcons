@@ -71,10 +71,14 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
   },
 ```
 
-#### Fixed a merge conflict: 
+### Fixed 
+#### A merge conflict: 
 
 ![terminal](public/photos/terminal.png)
 
+#### MIME chrome error message:
+
+I was missing a comma in the server.js file, had multiple scripts for bootstrap and jquery. 
 
 ### Resources 
 
