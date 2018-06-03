@@ -9,7 +9,7 @@ var app = app || {};
     $('#about').hide();
     $('#home').show();
     $('#scholarships').hide();
-    $('#program').hide();
+    $('#programs').hide();
     $('#contact').hide();
 
     

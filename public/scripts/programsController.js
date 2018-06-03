@@ -3,9 +3,9 @@
 var app = app || {};
 
 (function(module) {
-  const schoolController = {};
+  const programsController = {};
 
-  schoolController.index = () => {
+  programsController.index = () => {
     $('#about').hide();
     $('#home').hide();
     $('#programs').show();
@@ -14,5 +14,5 @@ var app = app || {};
 
     
   };
-  module.schoolController = schoolController;
+  module.programsController = programsController;
 })(app);
