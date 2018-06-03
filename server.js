@@ -11,7 +11,7 @@ const client =  new pg.Client(conString);
 
 app.listen(PORT, () => console.log(`Listening on port 3000`));
 client.on('error', err => console.error(err));
-app.use(cors())
+app.use(cors());
 app.use(express.static('./public'));
 
 
