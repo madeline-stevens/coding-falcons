@@ -9,6 +9,7 @@ const cors = require('cors');
 const PORT= process.env.PORT || 3000;
 const conString = process.env.DATABASE_URL;
 const client =  new pg.Client(conString);
+
 // var path = require('path');
 
 
@@ -23,9 +24,9 @@ app.use(express.static('./public'));
 
 
 //routes
-app.get('/', (req, res) => res.sendFile('index.html', {root: './public'}));
-app.get('/about', (req, res) => res.sendFile('index.html', {root: './public'}));
-app.get('/contact', (req, res) => res.sendFile('index.html', {root: './public'}));
-app.get('/scholarships', (req, res) => res.sendFile('index.html', {root: './public'}));
-app.get('/programs', (req, res) => res.sendFile('index.html', {root: './public'}));
+app.get('/', (req, res) => res.send('index.html', {root: './public'}));
+app.get('/about', (req, res) => res.send('index.html', {root: './public'}));
+app.get('/contact', (req, res) => res.send('index.html', {root: './public'}));
+app.get('/scholarships', (req, res) => res.send('index.html', {root: './public'}));
+app.get('/programs', (req, res) => res.send('index.html', {root: './public'}));
 
