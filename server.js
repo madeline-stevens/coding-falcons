@@ -3,7 +3,7 @@
 
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const pg = require('pg');
 const cors = require('cors');
 const PORT= process.env.PORT || 3000;
@@ -18,14 +18,14 @@ client.on('error', err => console.error(err));
 app.listen(PORT, () => console.log(`Listening on port 3000`));
 client.on('error', err => console.error(err));
 app.use(cors());
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 app.use(express.static('./public'));
 
 
 
 //routes
 app.get('/', (req, res) => res.send('index.html', {root: './public'}));
-app.get('/public/about', (req, res) => res.send('index.html', {root: './public'}));
+app.get('/about', (req, res) => res.send('index.html', {root: './public'}));
 app.get('/contact', (req, res) => res.send('index.html', {root: './public'}));
 app.get('/scholarships', (req, res) => res.send('index.html', {root: './public'}));
 app.get('/programs', (req, res) => res.send('index.html', {root: './public'}));
