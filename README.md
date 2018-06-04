@@ -77,13 +77,13 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 ```
 
 ### Fixed 
-#### A merge conflict: 
+#### A merge conflict due to editing the readme on github, that seemed to all of a sudden fix itself: 
 
 ![terminal](public/photos/terminal.png)
 
 #### MIME chrome error message:
 
-There was missing a semicolon in the server.js file, had multiple scripts for bootstrap and jquery. 
+There was missing a semicolon in the server.js file, also had multiple scripts for bootstrap and jquery. 
 ![terminal](public/photos/screenshot2.png) 
 
 ### Resources 
