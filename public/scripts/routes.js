@@ -5,6 +5,9 @@ $(document).ready(function() {
   $('#scholarships').hide();
   $('#programs').hide();
   $('#contact').hide();
+  $('#home').show();
+
+  
 
 
 });
@@ -15,5 +18,7 @@ page('/about', app.aboutController.index);
 page('/scholarships', app.scholarshipController.index);
 page('/programs', app.programsController.index);
 page('/contact', app.contactController.index);
+page('/', app.indexController.index);
+
 
 page();
