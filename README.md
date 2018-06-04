@@ -1,6 +1,6 @@
 
 ### Welcome to Coding Falcons!
-Coding Falcons is a school and summer coding program for students 5-8th grade. Ivette Cortez and Madeline Stevens run the program and hope to expand throughout White Center, Georgetown and the rest of South Seattle. Test   test test
+Coding Falcons is a school and summer coding program for students 5-8th grade. Ivette Cortez and Madeline Stevens run the program and hope to expand throughout White Center, Georgetown and the rest of South Seattle.
 
 ### Heroku site:
 http://codingfalcons.herokuapp.com
@@ -13,9 +13,14 @@ http://codingfalcons.herokuapp.com
 ### Initial Setup:
 
 #### Preview
-Within terminal, in the root of this project folder.
+Within terminal, in the root of this project folder type:
 ``` 
 live-server
+```
+
+After adding server.js file and installing express and specifying 'PORT 3000' type: 
+```
+nodemon
 ```
 
 #### packages
