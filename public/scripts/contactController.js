@@ -6,10 +6,7 @@ var app = app || {};
   const contactController = {};
 
   contactController.index = () => {
-    $('#about').hide();
-    $('#home').hide();
-    $('#scholarships').hide();
-    $('#programs').hide();
+    $('.tab-content').hide();
     $('#contact').show();
 
   };

@@ -6,11 +6,9 @@ var app = app || {};
   const indexController = {};
 
   indexController.index = () => {
-    $('#about').hide();
     $('#home').show();
-    $('#scholarships').hide();
-    $('#programs').hide();
-    $('#contact').hide();
+    $('.tab-content').hide();
+
 
     
   };

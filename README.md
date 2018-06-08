@@ -1,6 +1,6 @@
 
 ### Welcome to Coding Falcons!
-Coding Falcons is a school and summer coding program for students 5-8th grade. Ivette Cortez and Madeline Stevens run the program and hope to expand throughout White Center, Georgetown and the rest of South Seattle.
+Coding Falcons is a school and summer coding program for students 5-8th grade. Ivette Cortez and Madeline Stevens run the program and hope to expand throughout White Center, Georgetown and the rest of South Seattle. This single page app is all for relaying information to the parents and students interested in our coding programs. 
 
 ### Heroku site:
 http://codingfalcons.herokuapp.com

@@ -1,21 +1,23 @@
 'use strict';
 
-// $(document).ready(function() {
-//   $('#about').hide();
-// });
 
 var app = app || {};
 
 (function(module) {
   const aboutController = {};
 
-  aboutController.index = () => {
+  aboutController.about = () => {
     $('#about').show();
-    $('#home').hide();
-    $('#scholarships').hide();
-    $('#programs').hide();
-    $('#contact').hide();
+    $('.tab-content').hide();
 
   };
   module.aboutController = aboutController;
 })(app);
+
+
+// 'use strict';
+// var app = app || {};
+// (function(module) {
+//   const aboutController = {
+//   };
+//   aboutController.about = function () {

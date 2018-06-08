@@ -6,12 +6,8 @@ var app = app || {};
   const programsController = {};
 
   programsController.index = () => {
-    $('#about').hide();
-    $('#home').hide();
     $('#programs').show();
-    $('#scholarships').hide();
-    $('#contact').hide();
-
+    $('.tab-content').hide();
     
   };
   module.programsController = programsController;
