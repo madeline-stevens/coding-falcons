@@ -5,7 +5,7 @@ var app = app || {};
 (function(module) {
   const contactController = {};
 
-  contactController.index = () => {
+  contactController.contact = () => {
     $('.tab-content').hide();
     $('#contact').show();
 

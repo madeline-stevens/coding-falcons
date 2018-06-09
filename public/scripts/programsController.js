@@ -5,10 +5,10 @@ var app = app || {};
 (function(module) {
   const programsController = {};
 
-  programsController.index = () => {
+  programsController.programs = () => {
     $('#programs').show();
     $('.tab-content').hide();
-    
+
   };
   module.programsController = programsController;
 })(app);

@@ -6,11 +6,8 @@ var app = app || {};
   const indexController = {};
 
   indexController.index = () => {
-    $('#home').show();
     $('.tab-content').hide();
-
-
-    
+    $('#home').show();
   };
   module.indexController = indexController;
 })(app);

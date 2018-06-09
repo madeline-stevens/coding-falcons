@@ -5,13 +5,24 @@ var app = app || {};
 (function(module) {
   const scholarshipController = {};
 
-  scholarshipController.index = () => {
-    $('#about').hide();
-    $('#home').hide();
-    $('#programs').hide();
+  scholarshipController.scholarships = () => {
+    $('.tab-content').hide();
     $('#scholarships').show();
-    $('#contact').hide();
 
   };
   module.scholarshipController = scholarshipController;
 })(app);
+
+
+// 'use strict';
+// var app = app || {};
+// (function(module) {
+//   const aboutController = {
+//   };
+//   aboutController.about = function () {
+//     $('.tab-content').hide();
+//     $('#about').show();
+//   };
+//   // DONE: Define a function that hides all main section elements, and then reveals just the #about section:
+//   module.aboutController = aboutController;
+// })(app);

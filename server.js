@@ -11,8 +11,6 @@ const conString = process.env.DATABASE_URL;
 const client =  new pg.Client(conString);
 
 // var path = require('path');
-
-
 client.connect();
 client.on('error', err => console.error(err));
 app.listen(PORT, () => console.log(`Listening on port 3000`));
@@ -25,6 +23,10 @@ app.use(express.static('./public'));
 
 //routes
 // app.get('/', (req, res) => res.sendFile('index.html', {root: './public'}));
+
+
+//in my example there are just the following section IDs in index but the only example is for querying a sql database.... 
+
 // app.get('/about', (req, res) => res.sendFile(__dirname + '/public/index.html'));
 // app.get('/contact', (req, res) => res.sendFile(__dirname + '/public/index.html'));
 // app.get('/scholarships', (req, res) => res.sendFile(__dirname + '/public/index.html'));
