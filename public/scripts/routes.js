@@ -7,12 +7,21 @@
 //   $('#contact').hide();
 //   $('#home').show();
 // });
-page('/', () => {
-  page.redirect('/home');
-  $('#prefButton').hide();
-});
+// page('/', () => {
+//   page.redirect('/home');
+//   $('#prefButton').hide();
+// });
 
 var app = app || {};
+
+if (window.location.pathname !== '/') {
+  page.base('/public');
+}
+
+page('/*', (ctx, next) => {
+  $('.page').hide();
+  next();
+});
 
 
 // page('/', app.indexController.index); don't need right now for just clicking on home
