@@ -90,11 +90,17 @@ There was missing a semicolon in the server.js file, also had multiple scripts f
 ``` 
 The requested URL /about was not found on this server.
 ```
-No fix as of 6//9. But by using the following:
+The issue was that i was hiding all sections on the home page with this code in routes.js
 ```
-app.get('/about', (req, res) => res.sendFile('index.html', {root: './public'}));
+// $(document).ready(function() {
+//   $('#about').hide();
+//   $('#scholarships').hide();
+//   $('#programs').hide();
+//   $('#contact').hide();
+//   $('#home').show();
+// });
 ```
-in server.js when i manually type /about i am redirected to index.html's home page. So how do I hone in on just the about section?
+Getting rid of the above solved my problem locally on localhost:3000 but not on heroku. 
 
 ### Resources 
 
