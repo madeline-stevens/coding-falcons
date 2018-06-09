@@ -6,8 +6,8 @@ var app = app || {};
   const programsController = {};
 
   programsController.programs = () => {
-    $('#programs').show();
     $('.tab-content').hide();
+    $('#programs').show();
 
   };
   module.programsController = programsController;
