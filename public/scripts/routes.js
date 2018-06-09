@@ -1,12 +1,12 @@
 'use strict';
 
-// $(document).ready(function() {
-//   $('#about').hide();
-//   $('#scholarships').hide();
-//   $('#programs').hide();
-//   $('#contact').hide();
-//   $('#home').show();
-// });
+$(document).ready(function() {
+  $('#about').hide();
+  $('#scholarships').hide();
+  $('#programs').hide();
+  $('#contact').hide();
+  $('#home').show();
+});
 
 var app = app || {};
 

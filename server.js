@@ -27,8 +27,8 @@ app.use(express.static('./public'));
 
 //in my example there are just the following section IDs in index but the only example is for querying a sql database.... 
 
-// app.get('/about', (req, res) => res.sendFile(__dirname + '/public/index.html'));
-// app.get('/contact', (req, res) => res.sendFile(__dirname + '/public/index.html'));
-// app.get('/scholarships', (req, res) => res.sendFile(__dirname + '/public/index.html'));
-// app.get('/programs', (req, res) => res.sendFile(__dirname + '/public/index.html'));
+app.get('/about', (req, res) => res.sendFile('index.html', {root: './public'}));
+// app.get('/contact', (req, res) => res.sendFile('index.html', {root: './public'}));
+// app.get('/scholarships', (req, res) => res.sendFile('index.html', {root: './public'}));
+// app.get('/programs', (req, res) => res.sendFile('index.html', {root: './public'}));
 
