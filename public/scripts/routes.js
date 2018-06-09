@@ -7,7 +7,7 @@
 //   $('#contact').hide();
 //   $('#home').show();
 // });
-page('/', () => { 
+page('/', () => {
   page.redirect('/home');
   $('#prefButton').hide();
 });
