@@ -86,6 +86,12 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 There was missing a semicolon in the server.js file, also had multiple scripts for bootstrap and jquery. 
 ![terminal](public/photos/screenshot2.png) 
 
+#### error in chrome browser window 
+``` 
+The requested URL /about was not found on this server.
+```
+No fix as of 6//9.
+
 ### Resources 
 
 Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg  
