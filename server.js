@@ -29,6 +29,6 @@ app.use(express.static('./public'));
 
 app.get('/about', (req, res) => res.sendFile('index.html', {root: './public'}));
 app.get('/contact', (req, res) => res.sendFile('index.html', {root: './public'}));
-// app.get('/scholarships', (req, res) => res.sendFile('index.html', {root: './public'}));
-// app.get('/programs', (req, res) => res.sendFile('index.html', {root: './public'}));
+app.get('/scholarships', (req, res) => res.sendFile('index.html', {root: './public'}));
+app.get('/programs', (req, res) => res.sendFile('index.html', {root: './public'}));
 

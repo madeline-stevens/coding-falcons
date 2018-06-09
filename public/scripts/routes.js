@@ -10,6 +10,10 @@
 
 var app = app || {};
 
+page('/', () => { 
+  page.redirect('/home');
+  $('#prefButton').hide();
+});
 
 // page('/', app.indexController.index); don't need right now for just clicking on home
 page('/about', app.aboutController.about);
