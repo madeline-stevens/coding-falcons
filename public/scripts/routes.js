@@ -7,26 +7,11 @@
 //   $('#contact').hide();
 //   $('#home').show();
 // });
-// page('/', () => {
-//   page.redirect('/home');
-//   $('#prefButton').hide();
-// });
+
 
 var app = app || {};
 
-if (window.location.pathname !== '/') {
-  page.base('/')
-}
 
-// page('/*', (ctx, next) => {
-//   $('.view').hide()
-//   next()
-// });
-
-page('/*', (ctx, next) => {
-  $('.page').hide();
-  next();
-});
 
 
 // page('/', app.indexController.index); don't need right now for just clicking on home
@@ -37,3 +22,14 @@ page('/contact', app.contactController.contact);
 
 
 page();
+
+
+//this does not work:
+// if (window.location.pathname !== '/') {
+//     page.base('/avalanche-client');
+//   }
+  
+//   page('/*', (ctx, next) => {
+//     $('.page').hide();
+//     next();
+//   });
