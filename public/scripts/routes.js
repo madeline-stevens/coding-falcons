@@ -15,8 +15,13 @@
 var app = app || {};
 
 if (window.location.pathname !== '/') {
-  page.base('/public');
+  page.base('/')
 }
+
+// page('/*', (ctx, next) => {
+//   $('.view').hide()
+//   next()
+// });
 
 page('/*', (ctx, next) => {
   $('.page').hide();
@@ -29,5 +34,6 @@ page('/about', app.aboutController.about);
 page('/scholarships', app.scholarshipController.scholarships);
 page('/programs', app.programsController.programs);
 page('/contact', app.contactController.contact);
+
 
 page();

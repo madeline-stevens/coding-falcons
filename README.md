@@ -18,7 +18,7 @@ Within terminal, in the root of this project folder type:
 live-server
 ```
 
-After adding server.js file and installing express and specifying 'PORT 3000' type: 
+After adding server.js file and installing express and specifying 'PORT 3000' type this in terminal: 
 ```
 nodemon
 ```
