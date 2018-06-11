@@ -22,8 +22,8 @@ app.use(express.static('./public'));
 
 //routes
 app.get('/*', (req, res) => {
-  console.log("__REQUEST__ : ", req);
-  console.log("__RESPONSE__ : ", res);
+  console.log('__REQUEST__ : ', req);
+  console.log('__RESPONSE__ : ', res);
   res.sendFile('index.html', {root: './public'});
 });
 

@@ -105,7 +105,7 @@ Getting rid of the above solved my problem locally on localhost:3000 but not on 
 
 ### Resources 
 
-Bootstrap in general- https://www.youtube.com/watch?v=gqOEoUR5RHg  
+Bootstrap in general (carousel, etc)- https://www.youtube.com/watch?v=gqOEoUR5RHg  
 Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100  
 Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6  
 Bootstrap contact us- https://bootsnipp.com/snippets/featured/contact-us 
