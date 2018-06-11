@@ -86,19 +86,20 @@ Ran into the issue of jquery not being recognized despite the CDN's script at th
 There was missing a semicolon in the server.js file, also had multiple scripts for bootstrap and jquery. 
 ![terminal](public/photos/screenshot2.png) 
 
-#### error in chrome browser window 
+#### Following error in chrome browser window: 
 ``` 
 The requested URL /about was not found on this server.
 ```
-The issue was that i was hiding all sections on the home page with this code in routes.js
+The issue was that I had used that php trick to attempt to host a simple html/css app (not sure why it wouldn't initally work still) and I did not have * just * the following, I thought I had to be explicit about each route in server.js as well as route.js: 
+
+In server.js: 
 ```
-// $(document).ready(function() {
-//   $('#about').hide();
-//   $('#scholarships').hide();
-//   $('#programs').hide();
-//   $('#contact').hide();
-//   $('#home').show();
-// });
+app.get('/*', (req, res) => {
+  console.log("__REQUEST__ : ", req);
+  console.log("__RESPONSE__ : ", res);
+  res.sendFile('index.html', {root: './public'});
+});
+
 ```
 Getting rid of the above solved my problem locally on localhost:3000 but not on heroku. 
 
