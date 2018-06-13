@@ -3,11 +3,11 @@
 var app = app || {};
 
 (function(module) {
-  const indexController = {};
+  const homeController = {};
 
-  indexController.index = () => {
+  homeController.home = () => {
     $('.tab-content').hide();
     $('#home').show();
   };
-  module.indexController = indexController;
+  module.homeController = homeController;
 })(app);
