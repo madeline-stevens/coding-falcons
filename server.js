@@ -26,5 +26,3 @@ app.get('/*', (req, res) => {
   console.log('__RESPONSE__ : ', res);
   res.sendFile('index.html', {root: './public'});
 });
-
-

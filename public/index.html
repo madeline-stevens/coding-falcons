@@ -40,6 +40,8 @@ blog stuff -->
             <div class="page header" style="padding-left: 2%">
               <h1 data-content="home"><a href="/" style="text-decoration: none;">Coding Falcons</a></h1>
             </div>
+        </div>
+    </header>
 
 <!-- Nav bar -->
     <div class="container">
@@ -66,8 +68,8 @@ blog stuff -->
         
 <!-- summer code camp details -->
 <main>
-    <!-- <div class="container"> -->
-    <section id="home" class="tab-content">
+<section id="home" class="tab-content">
+    <div class="container">
         <div class="jumbotron"> 
             <!-- jumbotron resize- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6 -->
 
@@ -92,74 +94,49 @@ blog stuff -->
                     <p><b>Instructors:</b> Ivette Cortez and Madeline Stevens. Both of whom have attended an immersive code school teaching JavaScript meant for creating websites. </p>
                     <p><b>Cost:</b> $300 per student, for the week. Scholarships can be applied for by completing the application on this site!  You can email either Ivette or Madeline with additional questions.</p>
                     <p><b>What to bring:</b> Snacks for breaks. And a positive attitude!</p>
+        </div>
     </div>
     
 
 <!-- start of carousel -->
 <!-- Surround everything with a div with the class carousel slide -->
-<div class="container">
-    <section id="home">
 
-        <div class="jumbotron">
-            <!-- start of tutorial  -->
-                <div id="theCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Define how many slides to put in the carousel -->
-                    <ol class="carousel-indicators">
-                      <li data-target ="#theCarousel" data-slide-to="0" class="active"> </li >
-                      <li data-target ="#theCarousel" data-slide-to="1"> </li>
-                      <li data-target ="#theCarousel" data-slide-to="2"> </li>
-                      <li data-target ="#theCarousel" data-slide-to="3"> </li>
-                      <li data-target ="#theCarousel" data-slide-to="4"> </li>
-                      </ol>
-                    <!-- Define the text to place over the image -->
-                        <div class="carousel-inner">
-                        <div class="item active">
-                            <div class ="slide1">
-                                <img src="/photos/IMG_3990.jpg">
-                            </div>
-                        </div>
-            
-                        <div class="item">
-                            <div class="slide2">
-                              <img src="/photos/IMG_4540.jpg">
-                            </div>
-                        </div>
-            
-                        <div class="item">
-                            <div class="slide3">
-                                <img src="/photos/IMG_3200.jpg">
-                            </div>
-                        </div>
-            
-                        <div class="item">
-                            <div class="slide4">
-                                <img src="/photos/IMG_3197.jpg">
-                            </div>
-                        </div>
-            
-                        <div class="item">
-                            <div class="slide5">
-                                <img src="/photos/IMG_3201.jpg">
-                            </div>
-                        </div>
-                    </div>
-                   
-    <!-- Set the actions to take when the arrows are clicked -->
-                    <a class="left carousel-control" href="#theCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"> </span></a>
-    
-                    <a class="right carousel-control" href="#theCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span></a>
-                </div>
-            </section>
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Define how many slides to put in the carousel -->
+        <ol class="carousel-indicators">
+          <li data-target="#theCarousel" data-slide-to="0" class="active"> </li>
+          <li data-target="#theCarousel" data-slide-to="1"> </li>
+          <li data-target ="#theCarousel" data-slide-to="2"> </li>
+        </ol >
+       
+        <!-- Define the text to place over the image -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="photos/IMG_3197.jpg" alt="school code camp" class="img-responsive">
+           </div>
+            <div class="item">
+                <img src="photos/IMG_3200.jpg" alt="school code camp" class="img-responsive">
+            </div>
+
+            <div class="item">
+                <img src="photos/IMG_3990.jpg" alt="school code camp" class="img-responsive">
+            </div>
         </div>
-    </div>    
+       
+        <!-- Set the actions to take when the arrows are clicked -->
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"> </span>
+        </a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</section>
+
 <!-- end of carousel -->
 <!-- end of summer code camp -->
-        
-<!-- start of summer camp schedule -->
 
-<!-- end of summer camp schedule -->
+<!-- start of scholarship -->
     
     <div class="container"> 
         <section id="scholarships" class="tab-content">
@@ -178,8 +155,9 @@ blog stuff -->
                 </div>
         </section>
     </div>
-        
- <!-- start of school programs -->        
+<!-- end of scholarship -->
+
+<!-- start of school programs -->        
     
 <div class="container"> 
         <section id="programs" class="tab-content">
@@ -241,16 +219,8 @@ blog stuff -->
                 </form>
               </div>
             </div>
-<!-- simple form -->
-            <!-- <form action="https://formspree.io/codingfalcons@gmail.com"
-                  method="POST">
-                <input type="text" name="name">
-                <input type="email" name="_replyto">
-                <input type="submit" value="Send">
-            </form> -->
- <!-- end of simple form -->
         </section>
-    </div> 
+</div> 
 
 <!-- end of contact us -->
 
@@ -266,7 +236,7 @@ blog stuff -->
                     <div class="col-md-5 col-sm-6 col-xs-12">                            
                         <p><a href="https://www.linkedin.com/in/ivette-cortez/"><b>Ivette Cortez</b></a></p>
                         <p>
-                            A Chicago native, Ivette has dedicated most of her life to working with underrepresented populations. A first generation daughter of Guatemalan immigrants, she would spend her summers in Guatemala, where she developed a love of learning. In 2016, she learned front-end development and uses her skills to develop a programming curriculum at Holy Family Bilingual School. She is passionate about empowering women, girls, and promoting equity and diversity in tech and hopes to introduce programming to more generations of students in Seattle. 
+                                A Chicago native, Ivette has dedicated most of her life to working with underrepresented populations. A first generation daughter of Guatemalan immigrants, she would spend her summers in Guatemala, where she developed a love of learning. In 2016, she learned front-end development and uses her skills to develop a programming curriculum at Holy Family Bilingual School. She is passionate about empowering women, girls, and promoting equity and diversity in tech and hopes to introduce programming to more generations of students in Seattle. 
                         </p><br>
                         <!-- <p>ivette.p.cortez@gmail.com</p> -->
                         <p><a href="http://www.madelinerstevens.com"><b>Madeline Stevens</b></a></p>
@@ -282,7 +252,7 @@ blog stuff -->
                 </div>
                 
         </section>       
-    </div>
+</div>
         
     </main>
 </body>  
