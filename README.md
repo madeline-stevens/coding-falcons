@@ -105,14 +105,14 @@ Getting rid of the above solved my problem locally on localhost:3000 but not on 
 
 ### Resources 
 
-Bootstrap in general (carousel, etc)- https://www.youtube.com/watch?v=gqOEoUR5RHg 
-Bootstrap carousel (deeper dive)- https://www.youtube.com/watch?v=R0nkkXkrby0 
-Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100  
-Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6  
-Bootstrap contact us- https://bootsnipp.com/snippets/featured/contact-us 
-Bootstrap footer- https://mdbootstrap.com/components/bootstrap-footer/ 
-Formspree for contact us- https://formspree.io 
-routing (showing/hiding index.html content)- https://github.com/ejdelrio/11-spa_routing/tree/anthony-eddie/starter-code
+Bootstrap in general (carousel, etc)- https://www.youtube.com/watch?v=gqOEoUR5RHg   
+Bootstrap carousel (deeper dive)- https://www.youtube.com/watch?v=R0nkkXkrby0  
+Rounding corners for about the team- https://codepen.io/Madeline206/pen/JZPmMY?editors=1100   
+Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae39e8d000be6   
+Bootstrap contact us- https://bootsnipp.com/snippets/featured/contact-us  
+Bootstrap footer- https://mdbootstrap.com/components/bootstrap-footer/  
+Formspree for contact us- https://formspree.io  
+routing (showing/hiding index.html content)- https://github.com/ejdelrio/11-spa_routing/tree/anthony-eddie/starter-code  
 
 
 
