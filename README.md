@@ -103,6 +103,18 @@ app.get('/*', (req, res) => {
 ```
 Getting rid of the above solved my problem locally on localhost:3000 but not on heroku. 
 
+#### Hiding tab content on home page:
+
+The following code in routes.js will hide tab content on page load but if you refresh within tab content this code also tells your page to only show home. So I still need to figure out a solution. 
+
+// $(document).ready(function() {
+//   $('#about').hide();
+//   $('#scholarships').hide();
+//   $('#programs').hide();
+//   $('#contact').hide();
+//   $('#home').show();
+// });
+
 ### Resources 
 
 Bootstrap in general (carousel, etc)- https://www.youtube.com/watch?v=gqOEoUR5RHg   
