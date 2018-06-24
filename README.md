@@ -9,6 +9,8 @@ http://codingfalcons.herokuapp.com
 + [Initial Setup](#preview)
 + [Bootstrap and Heroku setup](#bootstrap)
 + [Resources](#resources)
++ [ARIA](#ARIA)
+
 
 ### Initial Setup:
 
@@ -115,6 +117,10 @@ The following code in routes.js will hide tab content on page load but if you re
 //   $('#home').show();
 // });
 
+### ARIA 
+#### Examples of ARIA  
+
+
 ### Resources 
 
 Bootstrap in general (carousel, etc)- https://www.youtube.com/watch?v=gqOEoUR5RHg   
@@ -124,7 +130,7 @@ Resizing jumbotron- https://www.codecademy.com/en/forum_questions/5398ac97282ae3
 Bootstrap contact us- https://bootsnipp.com/snippets/featured/contact-us  
 Bootstrap footer- https://mdbootstrap.com/components/bootstrap-footer/  
 Formspree for contact us- https://formspree.io  
-routing (showing/hiding index.html content)- https://github.com/ejdelrio/11-spa_routing/tree/anthony-eddie/starter-code  
+routing (showing/hiding index.html content)- https://github.com/ejdelrio/11-spa_routing/tree/anthony-eddie/starter-code    
 
 
 
