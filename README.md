@@ -118,7 +118,12 @@ The following code in routes.js will hide tab content on page load but if you re
 // });
 
 ### ARIA 
-#### Examples of ARIA  
+#### Example usage of ARIA
+
+aria-label for a fontawesome Twitter icon in my footer: 
+```html
+<a href="https://twitter.com/_madtweets" target="_blank" aria-label="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a> 
+```
 
 
 ### Resources 
