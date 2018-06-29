@@ -12,6 +12,8 @@
 .jumbotron {
   padding: 20px;
   line-height: 25px;
+  background-color: #ddd;
+
 }
 
 .jumbotron p {
