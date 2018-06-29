@@ -118,12 +118,21 @@ The following code in routes.js will hide tab content on page load but if you re
 // });
 
 ### ARIA 
-#### Example usage of ARIA
+#### Example usages of ARIA
 
-aria-label for a fontawesome Twitter icon in my footer: 
+1. Added aria-label for a fontawesome Twitter icon in my footer: 
 ```html
 <a href="https://twitter.com/_madtweets" target="_blank" aria-label="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a> 
 ```
+2. Added aria-required for each "contact us" form text field:
+```html
+<input type="email" class="form-control" name="replyto" value="" placeholder="E-mail" aria-required="true">
+```
+3. Added aria-label for each "contact us" form text field:
+```html
+<input type="text" class="form-control" name="name" placeholder="Name" aria-label="Form, empty name field" aria-required="true">
+```
+
 
 
 ### Resources 
