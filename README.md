@@ -147,6 +147,13 @@ Changed to:
 ```html
 <img class="img-responsive" src="photos/IMG_0433.jpg" alt="Co-founders, Maddy and Ivette pose for selfie">
 ```
+6. Adding aria-labels to image carousel left/right pointers: 
+```html
+<a class="left carousel-control" href="#theCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-label="click to go to left carousel image"></span>
+</a>
+```
+
 
 
 
