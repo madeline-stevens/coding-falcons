@@ -118,7 +118,7 @@ The following code in routes.js will hide tab content on page load but if you re
 // });
 
 ### ARIA 
-#### Example usages of ARIA
+#### ARIA attributes added to html attributes: 
 
 1. Added aria-label for a fontawesome Twitter icon in my footer: 
 ```html
