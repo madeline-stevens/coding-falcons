@@ -155,9 +155,15 @@ The following code in routes.js will hide tab content on page load but if you re
 4.  Don't use heading mark up on text that isn't actually a heading:
     Used to be:
 
-     <h4><strong>Ask us anything!</strong></h4>
-    ARIA change:
-     <p><strong>Ask us anything!</strong></p>
+```html
+<h4><strong>Ask us anything!</strong></h4>
+```
+
+ARIA change:
+
+```html
+<p><strong>Ask us anything!</strong></p>
+```
 
 5.  Adding meaningful alt text to images, instead of the default bootcamp provides:
     Used to be:
