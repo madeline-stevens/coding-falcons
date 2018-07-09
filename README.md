@@ -166,7 +166,8 @@ ARIA change:
 ```
 
 5.  Adding meaningful alt text to images, instead of the default bootcamp provides:
-    Used to be:
+
+Used to be:
 
 ```html
 <img class="img-responsive" src="photos/IMG_0433.jpg" alt="Responsive imgage">
