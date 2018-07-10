@@ -122,6 +122,7 @@ Getting rid of the above solved my problem locally on localhost:3000 but not on 
 
 The following code in routes.js will hide tab content on page load but if you refresh within tab content this code also tells your page to only show home. So I still need to figure out a solution.
 
+```js
 // $(document).ready(function() {
 // $('#about').hide();
 // $('#scholarships').hide();
@@ -129,6 +130,21 @@ The following code in routes.js will hide tab content on page load but if you re
 // $('#contact').hide();
 // $('#home').show();
 // });
+```
+
+FIXED, routes.js now looks like this:
+
+```js
+var app = app || {};
+
+page("/about", app.aboutController.about);
+page("/scholarships", app.scholarshipController.scholarships);
+page("/programs", app.programsController.programs);
+page("/contact", app.contactController.contact);
+page("/", app.homeController.home);
+
+page();
+```
 
 ### ARIA
 
