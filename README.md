@@ -15,7 +15,7 @@ http://codingfalcons.herokuapp.com
 
 ### Initial Setup:
 
-#### Preview
+#### Preview your app
 
 Within terminal, in the root of this project folder type:
 
@@ -29,7 +29,7 @@ After adding server.js file and installing express and specifying 'PORT 3000' ty
 nodemon
 ```
 
-#### packages
+#### packages:
 
 npm init- to create package.json
 npm install- to create nodemodules
