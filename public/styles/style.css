@@ -3,10 +3,25 @@
   font-family: arial, sans-serif;
 } */
 
-#theCarousel img {
-  width: 100%;
-  height: 100%;
+#theCarousel {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  left: 19%;
 }
+
+/* .jumbotron photo {
+  position: relative;
+}
+#theCarousel {
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+} */
 
 .jumbotron {
   padding: 20px;
